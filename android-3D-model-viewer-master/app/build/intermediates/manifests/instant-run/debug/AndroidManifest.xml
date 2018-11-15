@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="8"
-        android:targetSdkVersion="27" />
+        android:targetSdkVersion="26" />
 
     <uses-feature
         android:glEsVersion="0x00020000"
@@ -48,6 +48,10 @@
 
             <!-- android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" -->
         </activity>
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.0.2" />
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"
